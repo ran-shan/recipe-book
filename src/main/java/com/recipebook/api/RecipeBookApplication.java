@@ -20,7 +20,7 @@ public class RecipeBookApplication {
     @Bean
     public OpenAPI customOpenApi() {
         return new OpenAPI().info(new Info().title("RecipeBook application API")
-                .version("1.0.0")
+                .version("1.0.1-SNAPSHOT")
                 .description("-- > Demo application < --"));
     }
 }
